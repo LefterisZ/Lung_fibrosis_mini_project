@@ -3,4 +3,5 @@
 .Rproj.user
 data
 graphics_out
+analysis_obj
 *.RData
