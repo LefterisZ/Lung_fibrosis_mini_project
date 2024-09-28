@@ -747,7 +747,7 @@ seu <- AddModuleScore(seu, features = list(emt = emtGenes_ENSG), assay = "SCT", 
 ### ----ECM --------------------------------------------------------------------
 seu <- AddModuleScore(seu, features = list(ecm = ecmGenes_ENSG), assay = "SCT", name = "ecm")
 
-### ----ECM --------------------------------------------------------------------
+### ----TGFB --------------------------------------------------------------------
 seu <- AddModuleScore(seu, features = list(tgfb = tgfbGenes_ENSG), assay = "SCT", name = "tgfb")
 
 ## Some genes from the above feature sets are not present in the data set.
